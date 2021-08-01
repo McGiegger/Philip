@@ -1,0 +1,522 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+body{
+    
+	font-family:serif;
+	background-color: rgb(255, 255, 255);
+	color: #000;
+}
+.container-fluid{
+	margin-left: auto;
+	margin-right: 50px;
+}
+#jumbotrron{
+	background-color: rgb(127, 187, 184);
+}
+.bg-img{
+	background: url(images/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+	height: 100vh;
+}
+#images{
+    width: auto;
+    height: 200px;
+}
+.featured{
+margin: auto;
+width: 50%;
+border: 3px solid gray;
+padding: 10px;
+background-color: greenyellow;
+}
+.featured h3{
+    text-align: center;
+    font-family: serif;
+    letter-spacing: 5px;
+}
+
+
+#jumbotrron{
+	background-color: rgb(127, 187, 184);
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+footer a{
+    color: #d5d5d5;
+}
+
+form.subscribe{
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-logo{
+    width: 100px;
+}
+
+.social-handles h6{
+    color: white;
+    font-weight: bolder
+   
+}
+.social-handles a{
+    color: white;
+    margin: 0 15px;
+    font-size: 1.5rem;
+}
+.social-handles a:hover{
+    color: skyblue;
+}
+/* login page styling */
+.bg-img{
+    background: url(images/bg.jpeg);
+     background-size: cover;
+     background-position: center;
+     min-height: 100vh;
+
+ }
+
+ .bg-img::after{
+     position: absolute;
+     content: '';
+     top: 0;
+     left: 0;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.7);
+ }
+ .content{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     z-index: 999;
+     width: 370px;
+     padding: 60px 32px;
+     background: rgba(255,255,255,0.04);
+     box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+ }
+
+ .content header{
+     color: white;
+     font-size: 33px;
+     font-weight: 600;
+     font-family: 'Montserrat',sans-serif;
+     margin: 0 0 35px 0;
+
+ } 
+
+ .field{
+     position: relative;
+     height: 45px;
+     width: 100%;
+     display: flex;
+     background: rgba(255,255,255,0.94);
+
+ }
+ .field span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+  }
+
+ .field input{
+     height: 100%;
+     width: 100%;
+     background: transparent;
+     border: none;
+     outline: none;
+     color: #222;
+     font-size: 16px;
+     font-family: 'Poppins',sans-serif;
+
+ }
+ #login .show{
+     position: absolute;
+     right: 13px;
+     font-weight: 700;
+     font-size: 13px;
+     font-family: 'Monserrat', sans-serif;
+     color: #222;
+     cursor: pointer;
+     display: none;
+ }
+ .password:valid ~ .show{
+     display: block;
+ }
+ .space{
+     margin-top: 16px;
+ }
+ .pass{
+     text-align: left;
+     margin: 10px 0;
+ }
+ .pass a{
+     color: white;
+     font-family: 'Poppins', sans-serif;
+     text-decoration: none;
+ }
+  .pass:hover a{
+     text-decoration:underline ;
+  }
+  input[type="submit"]{
+      background: #3498db;
+      border: 1px solid #2691d9;
+      color: white;
+      font-size: 18px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      font-family: 'Monserrat', sans-serif;
+
+  }
+  input[type="submit"]:hover{
+      background: #2691d9;
+  }
+  .login{
+      color: white;
+  }
+  .link{
+      display: flex;
+      cursor: pointer;
+      margin: 0 0 20px 0;
+  }
+  .facebook, .instagram, .twitter{
+      width: 100%;
+      height: 42px;
+      line-height: 45px;
+      margin-top: 10px;
+      margin-left: 10px;
+
+  }
+ .facebook{
+     background: #4267B2;
+     border: 1px solid #3e61a8;
+     margin-left: 0px;
+ }
+
+ .instagram{
+    background: #E1306C;
+    border: 1px solid #df2060;
+}
+
+.twitter{
+    background: #1DA1F2;
+    border: 1px solid #3e61a8;
+}
+.signup{
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.signup a{
+    color: #3498db;
+    text-decoration: none;
+}
+.signup a:hover{
+text-decoration: underline;
+
+}
+
+
+
+/* services page styling */
+.seric{
+    background: #ddd;
+    font-family: poppins;
+
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.section-header p{
+    font-style: 18px;
+}
+.single-service{
+    border: 1px solid #ebebeb;
+    text-align: center;
+    background: #fff;
+}
+.service-bg{
+    height: 200px;
+    position: relative;
+
+}
+.service-bg-1{
+    background: url('images/1.jpeg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.service-bg-2{
+    background: url('images/2.jpeg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.service-bg-3{
+    background: url('images/3.jpeg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+}
+.service-bg h2{
+    color: #fff;
+    background: tomato;
+    border: 1px solid tomato;
+    font-style: 17px;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px;
+    position: absolute;
+    left: 8%;
+    width: 84%;
+    margin: 0;
+    bottom: -25px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+}
+
+.single-service:hover .service-bg h2{
+    background: #fff;
+    transition: .9s;
+    color: tomato;
+}
+.service-text{
+    padding: 50px 30px 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.service-text p:last-child{
+    margin: 0;
+    line-height: 1.8;
+}
+.btn-area{
+    display: inline block;
+    color: #333;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-transform: capitalize;
+
+}
+@media only screen and (max-width: 767px){
+.single-service{
+    margin-top: 30px;
+}
+.service-bg h2{
+    font-style: 13px;
+}
+}
+
+/* about us page styling */
+
+
+#about{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 23px;
+}
+.content-section .co p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.content-section .co .button{
+    margin-top: 30px;
+}
+.content-section .co .button a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.content-section .co .button a:hover{
+    background-color: #a52a2a;
+    color: #fff;
+}
+.content-section .social{
+    margin: 40px 40px;
+}
+.content-section .social a{
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social a:hover{
+    color: skyblue;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 15px;
+    }
+    .content-section .co .button{
+        text-align: center;
+    }
+    .content-section .co .button a{
+        padding: 9px 30px;
+    }
+    .content-section  .social{
+        text-align: center;
+    }
+}
+#signup{
+    background: url("images/4.jpg");
+    background-size: contain;
+    font-family: Arial;
+}
+.wrap{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 100px;
+}
+h2{
+    text-align: center;
+}
+input[type = text], input[type = password]{
+width: 100%;
+box-sizing: border-box;
+padding: 12px 5px;
+background: rgba(0, 0, 0, 0.10);
+outline: none;
+border: none;
+border-bottom: 1px dotted #fff;
+color: #fff;
+border-radius: 5px;
+margin: 5px;
+font-weight: bold;
+}
+input[type = submit]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    outline: none;
+    border: none;
+    background: #60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+input[type = submit]:hover{
+    background-color: #003366;
+    opacity: 0.7;
+}
+#alreadywithaccount{
+    text-align: center;
+}
+#signin{
+    background: url("images/bg.jpeg");
+    background-size: contain;
+    font-family: Arial;
+}
+/* admin page styling */
+#adminLog{
+    
+    background-color: #003366;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    height: 40px;
+  }
+#administration{
+        margin: auto;
+        width: 50%;
+        margin-top: 10px;
+       
+        }
+
+#administration h3{
+    text-align: center;
+    font-family: serif;
+    color:white;
+    letter-spacing: 1px;
+}
+.wrapp{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(22, 22, 22, 0.8);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+
